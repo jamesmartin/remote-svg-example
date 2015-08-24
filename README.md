@@ -8,5 +8,6 @@ Roughly, to recreate this demo project, follow these steps:
 
 1. Initialize a new jspm project: `jspm init -y`
 1. Install Remote SVG as a dependency: `jspm install remote-svg=github:jamesmartin/remote-svg`
-1. See the [./index.html](./index.html) and [./lib/main.js](./lib/main.js) source files for usage.
-1. Remember to run the app over HTTP (to keep Chrome happy). I use [live-server](https://www.npmjs.com/package/live-server).
+1. See the [./index.html](./index.html) and [./lib/main.js](./lib/main.js) source files for usage
+1. CSS styles are provided by the [./lib/style.css](./lib/style.css) file, via the [System JS CSS Plugin](https://github.com/systemjs/plugin-css)
+1. Remember to run the app over HTTP (to keep Chrome happy). I use [live-server](https://www.npmjs.com/package/live-server)
